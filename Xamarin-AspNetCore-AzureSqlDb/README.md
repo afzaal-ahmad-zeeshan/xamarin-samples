@@ -1,39 +1,13 @@
-# Welcome to ASP.NET Core
+# Powering Xamarin with Azure SQL database using ASP.NET Core Web API
 
-We've made some big updates in this release, so it’s **important** that you spend a few minutes to learn what’s new.
+This repository contains the project code for the article that I wrote, with the similar title. Project contains the ASP.NET Web API written to take care of the data handling and management, at the backend. The data is stored and fetched from Azure SQL database and the final UI of the application is built with Xamarin for Android, as a mobile application.
 
-You've created a new ASP.NET Core project. [Learn what's new](https://go.microsoft.com/fwlink/?LinkId=518016)
+The notable features include:
 
-## This application consists of:
+1. High performance with Azure SQL databases.
+2. High response rate with Azure App Services. The API itself is built with ASP.NET Core but is hosted on Azure App Service to reach the maximum performance.
+3. Xamarin was used to build the mobile application. 
 
-*   Sample pages using ASP.NET Core MVC
-*   [Gulp](https://go.microsoft.com/fwlink/?LinkId=518007) and [Bower](https://go.microsoft.com/fwlink/?LinkId=518004) for managing client-side libraries
-*   Theming using [Bootstrap](https://go.microsoft.com/fwlink/?LinkID=398939)
+You may download the code and try it out with your own stuff. To learn how the framework was built, or to learn more about the usage of this application you may read the article that I wrote about this application setup. 
 
-## How to
-
-*   [Add a Controller and View](https://go.microsoft.com/fwlink/?LinkID=398600)
-*   [Add an appsetting in config and access it in app.](https://go.microsoft.com/fwlink/?LinkID=699562)
-*   [Manage User Secrets using Secret Manager.](https://go.microsoft.com/fwlink/?LinkId=699315)
-*   [Use logging to log a message.](https://go.microsoft.com/fwlink/?LinkId=699316)
-*   [Add packages using NuGet.](https://go.microsoft.com/fwlink/?LinkId=699317)
-*   [Add client packages using Bower.](https://go.microsoft.com/fwlink/?LinkId=699318)
-*   [Target development, staging or production environment.](https://go.microsoft.com/fwlink/?LinkId=699319)
-
-## Overview
-
-*   [Conceptual overview of what is ASP.NET Core](https://go.microsoft.com/fwlink/?LinkId=518008)
-*   [Fundamentals of ASP.NET Core such as Startup and middleware.](https://go.microsoft.com/fwlink/?LinkId=699320)
-*   [Working with Data](https://go.microsoft.com/fwlink/?LinkId=398602)
-*   [Security](https://go.microsoft.com/fwlink/?LinkId=398603)
-*   [Client side development](https://go.microsoft.com/fwlink/?LinkID=699321)
-*   [Develop on different platforms](https://go.microsoft.com/fwlink/?LinkID=699322)
-*   [Read more on the documentation site](https://go.microsoft.com/fwlink/?LinkID=699323)
-
-## Run & Deploy
-
-*   [Run your app](https://go.microsoft.com/fwlink/?LinkID=517851)
-*   [Run tools such as EF migrations and more](https://go.microsoft.com/fwlink/?LinkID=517853)
-*   [Publish to Microsoft Azure Web Apps](https://go.microsoft.com/fwlink/?LinkID=398609)
-
-We would love to hear your [feedback](https://go.microsoft.com/fwlink/?LinkId=518015)
+_The source code is released under **MIT license**, as is all of the code under this repository._ 
